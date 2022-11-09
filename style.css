@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+body {
+  background-color: rgb(247, 244, 244);
+  font-family: 'Open Sans', sans-serif;
+  color: #393E46;
+  font-size: 17px;
+}
+
+h1,h2 {
+  color: #4FA095;
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+a {
+  color: #3A8891;
+  text-decoration: none;
+  }
+
+.button-brown:hover {
+background-color: rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul > li > a {
+  font-size: 38px;
+  color:  #BA6E6E;
+}
+
+li{
+  display:inline;
+}
+
+.card{
+  background-color:white;
+  padding:25px;
+  margin:25px auto;
+  border-radius:5px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  border:2px solid #EAEAEA;
+  text-align: center;
+}
+
+.button-brown {
+  color:white;
+  background-color: #BA6E6E;
+  padding: 15px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.avatar-round {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
